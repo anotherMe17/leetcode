@@ -1,6 +1,7 @@
 package io.github.anotherme17;
 
-import io.github.anotherme17.algorithms.A1两数之和;
+import io.github.anotherme17.algorithms.eazy.A1两数之和;
+import io.github.anotherme17.algorithms.middle.A2两数相加;
 import org.junit.Test;
 
 /**
@@ -18,5 +19,10 @@ public class Algorithms {
             System.out.println(result[0] + ": " + nums[result[0]]);
             System.out.println(result[1] + ": " + nums[result[1]]);
         }
+    }
+
+    @Test
+    public void a2两数相加(){
+        A2两数相加 a2两数相加 = new A2两数相加();
     }
 }

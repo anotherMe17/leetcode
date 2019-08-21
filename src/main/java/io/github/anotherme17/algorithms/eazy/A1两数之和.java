@@ -1,4 +1,4 @@
-package io.github.anotherme17.algorithms;
+package io.github.anotherme17.algorithms.eazy;
 
 import java.util.HashMap;
 import java.util.Map;
